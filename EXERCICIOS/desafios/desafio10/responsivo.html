@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Responsividade</title>
+    <style>
+        *{ /*
+            CONFIGURAÇÕES GLOBAIS 
+            Zerando margin, padding e box-sizing conseguimos fazer um site ficar responsivo para telas de 300px até 800px, configurando imagem....
+            */
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: gray;
+        }
+        main{
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+
+            min-width: 280px;
+            max-width: 800px;
+            margin: auto
+        }
+        img{
+            width: 100%;
+
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Testando Responsividade</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem sequi maiores officiis ut deleniti, dolorum error. Cum provident maiores consequatur, earum veritatis itaque nesciunt quia unde assumenda laudantium recusandae eaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima laudantium beatae alias sapiente debitis perferendis incidunt nemo odio, consequuntur explicabo molestias voluptatum animi ullam repellendus. Eius qui corporis laudantium doloribus!</p>
+        <!--
+            picture com source da para colocar duas fotos com tamanhos diferentes para se adequar a melhor largura, responsividade.
+        -->
+        <picture>
+            <source media="(max-width: 600px)" srcset="imagens/irina-blok-pq.jpg"> 
+            <img src="imagens/irina-blok.jpg" alt="Irina">
+        </picture>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem sequi maiores officiis ut deleniti, dolorum error. Cum provident maiores consequatur, earum veritatis itaque nesciunt quia unde assumenda laudantium recusandae eaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima laudantium beatae alias sapiente debitis perferendis incidunt nemo odio, consequuntur explicabo molestias voluptatum animi ullam repellendus. Eius qui corporis laudantium doloribus!</p>
+    </main>    
+</body>
+</html>

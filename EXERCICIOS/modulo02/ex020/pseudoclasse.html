@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Classes</title>
+    <style>
+        div{
+            display: inline-block; /*Alinha a div*/
+            background-color: lightgray; /*Cria um fundo cinza na div*/
+            border: 1px solid black; /*aplica uma borda sólida preta*/
+            text-align: center;
+            height: 150px;
+            width: 150px;
+        }
+        /*
+        : são uma PSEUDO-CLASSES: Tem que estar relacionadas a um elemento ou uma classe.Definem o estado de um elemento dentro do HTML. Esão ligadas ao ESTADO de um elemento, se está vazio, ativo, marcado, vazio...
+        Consegue configurar o estado.
+        */
+        /*
+        :hover{significa que quando eu passar o mouse por cima ele realiza as ações do bloco}
+        */
+        div:hover{
+            background-color: yellow; /*Quando passar o mouse por cima ficará amarelo.*/
+        }
+    </style>
+</head>
+<body>
+    <div id="d1">01</div>
+    <div id="d2">02</div>
+    <div id="d3">03</div>
+
+</body>
+</html>

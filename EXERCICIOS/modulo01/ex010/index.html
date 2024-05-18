@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    <h1>Usando links</h1>
+    <h2>Links Externos</h2>
+<!-- abaixo temos o comando target="_blank" que faz com que abra o link em uma nova guia, mantendo a sua página nas abas abertas -->
+    <p>Você pode acessar o meu <a href="https://gustavoguanabara.github.io/" target="_blank" rel="external">repositório público no GitHub</a></p>
+    <p>Você também pode acessar o meu <a href="https://youtube.com/cursoemvideo/">canal gratuito no YouTube</a>.</p>
+    <h2>Links Internos</h2>
+    <p>Esta é a primeira página do site. Se você quiser, pode acessar 
+<!--no rel="next" => serve para avisar o buscador que a página imediatamente anterior é esta -->
+        também a minha <a href="pag002.html" rel="next" target="_self">segunda página.</a></p>
+<!-- o comando target="_self" serve para indicar que é para abrir na mesma aba evitarndo assim abrir muitas abas de seu propio site -->        
+    <p>Você também pode acessar nossa <a href="Noticias/pag003.html" rel="next" target="_self">página de notícias</a>.</p>
+    <h2>Links Dowloads</h2>
+    <ul>
+        <li><a href="livro/20 - Mini-projeto Cordel.pdf" download="Mini-projeto Cordel.pdf" type="application/pdf">Baixar o livro em PDF.</a></li>
+        <li><a href="livro/20 - Mini-projeto Cordel.rar" download="Mini-projeto Cordel.rar" type="application/rar">Baixar o livro compactado.</a></li>
+    </ul>
+        
+</body>
+</html>
