@@ -1,0 +1,5 @@
+exc. 22
+fundo001 => As para as divs ficarem lado a lado é necessário dar um display inline-block. 
+Na div q1 e na div q2, foi utilizado a mesma propiedade background-image, a primeira com linear-gradiente fazendo um degradê e na segunda inserindo uma imagem.
+fundo002 => background-size ele configura o tamanho dessas imagens dentro da página, viewport. É a parte visível de uma página da web que um usuário pode ver de seu dispositivo ou monitor. Background-repeat essa propriedade ela tem alguns valores aceitos o padrão é esse daqui repeat que repete a imagem por toda a viewport, outro valor aceito é o no-repeat, que impede a repetição da imagem, o repeat-y repete a imagem apenas no eixo y de cima para baixo e o repeat-x repete a imagem no eixo x da esquerda para a direita. o padrão é sempre a imagem começar na parte superior esquerda da viewport.
+fundo003  => 
