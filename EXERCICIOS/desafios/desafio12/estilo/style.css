@@ -37,7 +37,6 @@ header > h1{
 
 header > p{
     padding-bottom: 50px;
-
 }
 
 header a, footer a {
@@ -59,6 +58,11 @@ section{
     font-family: var(--fonte3);
     font-size: 3.5vw;
 }
+
+section > p {
+    padding-bottom: 2em;
+}
+
 section.normal{
     background-color: white;
     color: black;
@@ -74,6 +78,15 @@ section.imagem > p{
     padding: 7px;/*Para não ficar colado na borda*/
     background-color: rgba(0, 0, 0, 0.253);
 }
+
+section#img01{
+    
+}
+
+section#img02{
+
+}
+
 footer{
     background-color: black;
     color: white;
