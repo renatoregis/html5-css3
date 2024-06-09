@@ -1,4 +1,5 @@
 exc. 22
+
 13 -> fundo001 => As para as divs ficarem lado a lado � necess�rio dar um display inline-block. 
 Na div q1 e na div q2, foi utilizado a mesma propiedade background-image, a primeira com linear-gradiente fazendo um degrad� e na segunda inserindo uma imagem.
 14 -> fundo002 => background-size ele configura o tamanho dessas imagens dentro da p�gina, viewport. � a parte vis�vel de uma p�gina da web que um usu�rio pode ver de seu dispositivo ou monitor. Background-repeat essa propriedade ela tem alguns valores aceitos o padr�o � esse daqui repeat que repete a imagem por toda a viewport, outro valor aceito � o no-repeat, que impede a repetição da imagem, o repeat-y repete a imagem apenas no eixo y de cima para baixo e o repeat-x repete a imagem no eixo x da esquerda para a direita. o padr�o � sempre a imagem começar na parte superior esquerda da viewport.
@@ -9,3 +10,28 @@ Na div q1 e na div q2, foi utilizado a mesma propiedade background-image, a prim
 17-> fundo006 => função background-attachment: scroll é o padrão, ele vai rolar junto com o conteudo, imagem, outra opção é o fixed, ele fixa a imagem e rola o conteudo mantendo o fundo parado. Descrevendo a shorthand: Ordem, color, image, position, repeat, [size], attachment. Para a shorthand funcionar é preciso fazer da seguinte forma: color > image > position/size > repeat > attachment, colocar / no lugar de espaço. background: black url("imagens/wallpaper002.jpg") center center/cover no-repeat fixed;
 18-> fundo007 => Centralizaçãdo vertical de caixas -> Fazer a centralização da caixa usando position relative e absolute, e os elementos left 50% e top 50%, esses dois somente podem ser utilizados com position absolute, o elemento transform: translate(-50%, -50%) centraliza o eixo x, y ao centro da viewport.
 19-> projeto site.
+
+ex 23
+
+26-> tabelas => diferença de usar tabelas para construir site "não recomendado" e para mostrar dados.
+27-> tabelas => Montar uma tabela tr=>linha td=> dados. Vimos a border-collapse: collapse->que serve para juntar as célular e ficar parcecido com o excel.
+28-> tabelas => alinhamento direita center numeros...
+29-> tabelas => tr=> linha th=>título->sempre tem scopo td=> dados, vimos também caption=> título - esse não participa da tabela, thead=> cabeçalho, tbody=> corpo, tfoot=>rodapé.
+30-> Identificação da coluna e linha pelo th "título". scope="" => identifica onde virá os dados deste título, se é em coluna-> col "abaixo" ou em linha row-> "na frente", nesse caso se refere apenas a celulas sem mesclagem, Sintaxe: scope="row", scope="col", colgrup ou rowgrup é usado quando as células do título estão mescladas, é um conjunto de células, usado quando há mais de uma coluna, ou linha de dados. Quando houver um título mesclado e seus dados sem mesclar nada então utiliza-se o col ou row. 
+31-> efeito zebrado-> com o comando tr:nth-child().
+32-> cabeçalho fixo para saber qual é o nome da coluna.
+33-> Mesclar células -> usar o comando colspan="2" => para mesclar duas colunas e rowspan="3" =>  para mesclar 3 linhas. 
+34-> desafio 13 /1-2
+35-> fazendo o exercicios de 3 filmes=> primeiro fazer o:
+- título = h1 Exercícios de Tabela 
+- inserir as tags da tabela: cabeçalho, corpo, rodapé
+- definir o style:
+- body{font-family, 
+- table{border-collapse,
+- caption{font-size, font-weight, padding
+- th, td{border, padding,
+36 -> Exercícios -> scope="colgroup"
+37 -> Esercícios
+38 -> tabela005.html => trabalhando colunas, isolando para destacar a coluna, colgroup. Cria-se uma tag colgroup depois cada coluna que quiser destacar você vai criar ela com "col". Span=> determina quantas colunas vai expandir.
+39 -> Tabelas responsivas => overflow-x: auto => pega toda a tabela e envelopa ela em uma div, depois coloca um id="container" para ela e usa o comando overflow no eixo x no modo automático, isso fará que role apenas a tabela sendo que o texto ficará fixo. overflow: => trabalha os dois eixos da tabela. overflow-y => trabalha apenas a rolagem na vertical e o overflow-x trabalha apenas a rolagem na horizontal, o sub-comando no auto resolve o problema da rolagem.
+40 -> finalização do módulo 03.

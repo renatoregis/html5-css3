@@ -6,3 +6,7 @@ definiu formatação de paragrafos, sections, hover, class, algumas cores e algu
 23 fontes e suas aplicações
 Definiu fontes, tamanho, ajustes nas caixas de acordo com o tamanho da letra...
 24 imgens
+utilizando parallax
+25 site
+hospedando o site projeto cordel
+26 tabelas
