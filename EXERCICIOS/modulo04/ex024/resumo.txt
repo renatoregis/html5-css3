@@ -1,0 +1,7 @@
+02 -> iframe=> definição de iframe
+03 -> configuração de iframe 
+    -> quando o navegador não possui compatibilidade com o iframe ele vai mostar a mensagem que você cadastrou. tamanho por padrão é 300px x 150px, pode configurar a largura e altura atravéz do width e do height. Vários sites bloqueiam os iframes.
+    -> Scolling -> fixa ou não a barra de rolagem.
+    -> frameborder -> 0 sem borda, 1 com borda.
+04 -> colocar páginas nossas no iframe.
+05 -> 
