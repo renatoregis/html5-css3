@@ -4,4 +4,6 @@
     -> Scolling -> fixa ou não a barra de rolagem.
     -> frameborder -> 0 sem borda, 1 com borda.
 04 -> colocar páginas nossas no iframe.
-05 -> 
+05 -> colocar várias páginas nossas com lista no iframe. Para carregar a página dentro do iframe usa o target="nome". Uso do name="nome" a frente do id serve para dar um nome aquele iframe.
+06 -> iniciar o iframe com um documento ou informação usando o srcdoc="Escreva aqui a informação. Insira uma imagem, faça um arquivo exclusivo para iniciar o iframe..."
+07 -> 
