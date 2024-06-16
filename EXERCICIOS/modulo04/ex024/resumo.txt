@@ -6,4 +6,7 @@
 04 -> colocar páginas nossas no iframe.
 05 -> colocar várias páginas nossas com lista no iframe. Para carregar a página dentro do iframe usa o target="nome". Uso do name="nome" a frente do id serve para dar um nome aquele iframe.
 06 -> iniciar o iframe com um documento ou informação usando o srcdoc="Escreva aqui a informação. Insira uma imagem, faça um arquivo exclusivo para iniciar o iframe..."
-07 -> 
+07 -> indexação de buscadores, usabilidade, acessibilidade, segurança, 
+08 -> Segurança contra invasão usando sandbox="sandbox", ssegurança no máximo, ele bloqueia todo e qualquer acesso que outros sites que estejam dentro do iframe tentem fazer como por exemplo o cadastro de pessoas. desabilita o uso de captura de informação atravês do iframe, sandbox="allow-same-origin allow-forms allow-scripts"-> permite uso de formulario, uso de mesma origem e uso de scripts. O uso do referrerpolicy="no-referrer" quando coloca esse comando ele está dizendo que o conteudo que coloca dentro do iframe não vai coletar nenhum dado do usuário. Essa dupla juntas não coletam nenhum tipo de dados de usuário e vai permitir que você está com o máximo de segurança possível dentro de um iframe. Breve descrição de Scripts. 
+09 -> dicas de iframes legais, instalando iframes do google maps, wazze, videos...
+
