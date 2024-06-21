@@ -1,0 +1,11 @@
+17 => falou sobre form e como cria campos de formulário o básico e sobre o input:text - submit...
+18 => 
+- usando autocomplete="off" você desliga o preenchimento automático do formulário. 
+- action em form é para a ação que irá fazer assim que clicar em submit, ou seja enviar algo para algum lugar.
+- envelopar o nome com label para etiquetar o campo, ou seja a etiqueta do campo vinculando o campo ao nome.
+- para linguagens como HTML e PHP o name é mais importante no caso de linguagens como JavaScripty o id é mais importante pois ele vem automaticamente.
+- name é o nome do objeto e id o identificador do objeto
+- colocar nomes diferentes para o name e o id
+19 =>
+- metodo GET ou POST: GET-> usado para dados não sensíveis, pode enviar até 3.000 bits, os dados sem na url. POST-> usado para nomes, end, celular, cartão de crédito, senhas, fotos, mais de 3.000 bits, os dados não saem na url.
+20 =>
