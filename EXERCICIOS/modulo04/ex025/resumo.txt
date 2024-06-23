@@ -18,4 +18,12 @@
 - preenchimento do nome da caixa como sombra com o placeholder ex: nome do usuário, digite sua senha
 - autocomplete ligado no form e tambem nos inputs para o gerenciador de senhas buscar suas senhas no banco de dados, e novos atributos como nova senha, novo usuario, empresa... muito bom para não ter que ficar digitando usuario e senha toda vez que entrar no site.
 21 =>
-- 
+- input number, para caixa que somente usará números.
+- min e max diferente de text, para number usar um limite minimo e um maximo
+- input step para controlar de quanto em quanto a seta vai mudar e como vai configurar os numeros decimais
+- input para mês e ano -> month, abre um caledário para inserir o mês e ano
+- input date para inserir dia, mes e ano.
+- input value para sugerir um valor para a caixa, igual o placeholder só que ele apaga o placeholder.
+- input time para inserir horas
+22 => 
+- Compatibilidade de navegadores
