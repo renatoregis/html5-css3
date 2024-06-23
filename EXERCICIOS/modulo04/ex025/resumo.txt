@@ -7,5 +7,15 @@
 - name é o nome do objeto e id o identificador do objeto
 - colocar nomes diferentes para o name e o id
 19 =>
-- metodo GET ou POST: GET-> usado para dados não sensíveis, pode enviar até 3.000 bits, os dados sem na url. POST-> usado para nomes, end, celular, cartão de crédito, senhas, fotos, mais de 3.000 bits, os dados não saem na url.
+- metodo GET ou POST: GET-> usado para dados não sensíveis, pode enviar até 3.000 bits, os dados saem na url. POST-> usado para nomes, end, celular, cartão de crédito, senhas, fotos, mais de 3.000 bits, os dados não saem na url.
 20 =>
+- falou sobre o input password que é para campos como senhas
+- botões input reset para limpar os campos digitados
+- Sempre usar post para campos que contenham dados sensíveis tipo senhas
+- campos obrigatórios com required, não envia sem os campos estar preenchidos.
+- quantidade mínima e máxima de caracteres nos campos com minlength e maxlength.
+- tamanho da caixa com size
+- preenchimento do nome da caixa como sombra com o placeholder ex: nome do usuário, digite sua senha
+- autocomplete ligado no form e tambem nos inputs para o gerenciador de senhas buscar suas senhas no banco de dados, e novos atributos como nova senha, novo usuario, empresa... muito bom para não ter que ficar digitando usuario e senha toda vez que entrar no site.
+21 =>
+- 
