@@ -27,3 +27,9 @@
 - input time para inserir horas
 22 => 
 - Compatibilidade de navegadores
+23 =>
+- ESTUDAR MAIS SOBRE RegEx -
+- pattern -> expressão regular para telefone e outras coisas. Ex: Começa com "^ e termina com $".=> "^[0-9]{4}-[0-9]{4} -> significa que ele vai aceitar somente se for numeros de 0 a 9 =[0-9] e que contenham quatro dígitos ={4} depois um traço e novamente numeros de 0 a 9 [0-9] sendo no total de quatro digitos.{4}. Pode também ser colocado na seguinte maneira => \d{4}-\d{4} -> quatro digitos, um traço, quatro dígitos. Pode dar opção para ele aceitar mais de uma opção na quantidade de digitos exemplo, 98888-8787, ^\d{4,5}-\d{4}$. Para DDD, usa-se, "^\(\d{2}\)\d{4,5}-\d{4}$"
+- fieldset, para fazer uma moldura em torno de alguns campos para separar tipo dados pessoais, dados bancários, endereço...
+- legend serve para colocar uma legenda na borda do agrupamento dos campos.
+24 =>
